@@ -1,0 +1,42 @@
+[
+    {
+        "name": "GT3 RS",
+        "model": "911",
+        "fuel_type": "Premium unleaded",
+        "power": "525",
+        "location": "Lausanne",
+        "price": "350",
+        "image": "911-gt3rs.png",
+        "availabilities": []
+    },
+    {
+        "name": "Dakar",
+        "model": "911",
+        "fuel_type": "Electric",
+        "power": "480",
+        "location": "Genève",
+        "price": "320",
+        "image": "911-dakar.png",
+        "availabilities": []
+    },
+    {
+        "name": "Turbo",
+        "model": "911",
+        "fuel_type": "Premium unleaded",
+        "power": "580",
+        "location": "Lausanne",
+        "price": "370",
+        "image": "911-turbo.png",
+        "availabilities": []
+    },
+    {
+        "name": "Macan",
+        "model": "Macan",
+        "fuel_type": "Electric",
+        "power": "265",
+        "location": "Genève",
+        "price": "250",
+        "image": "macan.png",
+        "availabilities": []
+    }
+]

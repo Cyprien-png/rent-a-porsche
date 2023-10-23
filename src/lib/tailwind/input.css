@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@font-face {
+    font-family: '911 Porscha';
+    src: url('../../../public/font/911Porscha/Windows/POR2.TTF');
+}
+
+@font-face {
+    font-family: 'Porsche Next';
+    src: url('../../../public/font/PorscheNext-Regulare/PorscheNext-Regular.otf');
+}
+
+@layer base {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .text-glow {
+        text-shadow: #9D0620 1px 0 10px;
+    }
+
+    .text-glow-admin {
+        text-shadow: #F8CD02 1px 0 10px;
+    }
+
+    .glow {
+        box-shadow: 0 0 15px 1px #9D0620;
+    }
+
+    .glow-admin {
+        box-shadow: 0 0 15px 1px #F8CD02;
+    }
+
+    button .bg-background {
+        color: white;
+    }
+
+    .separator {
+        box-shadow: inset 0px 6 px 6px -5px #9D0620;
+    }
+
+    /* removing default gb color on nextui component */
+    div .bg-content1{
+        @apply bg-transparent;
+    }
+
+    ::file-selector-button {
+        @apply hidden;
+    }
+
+    input[type="date"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+    ::-webkit-calendar-picker-indicator {
+        filter: invert(1);
+    }
+
+    input::-webkit-date-and-time-value {
+        @apply text-left;
+    }
+
+    .page {
+        @apply pt-20 min-h-[100dvh] flex flex-col
+    }
+}

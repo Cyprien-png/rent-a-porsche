@@ -1,0 +1,2 @@
+# Document d'installation
+Vous trouverez ici la marche à suivre pour installer localement l'application : https://hickory-flag-e45.notion.site/Installation-local-windows-360bdc9fb2a2460ea0c7e79e9f869cf2
