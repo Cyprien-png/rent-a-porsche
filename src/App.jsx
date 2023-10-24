@@ -13,14 +13,9 @@ import Err404 from './pages/404'
 
 import { Route, Routes } from "react-router-dom"
 
-
-
-
 function App() {
 
     const [user, setUser] = useState("")
-
-
 
     return (
         <div className='text-white bg-background-gray font-Next flex flex-col'>
