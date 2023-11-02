@@ -57,7 +57,7 @@ Si vous vous attardez un peu sur le code, vous remarquerez que pour la navigatio
 
 \<a href="/login">|\<a onClick={navigate("/register")}>
 :-------------------------:|:-------------------------:
-![href](./images/href.gif) |![href](./images/onClick.gif)
+![href](./images/href.gif) |![href](./images/onclick.gif)
 
 
 ## Responsive
