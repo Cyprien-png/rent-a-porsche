@@ -53,7 +53,7 @@ If you look at the code a bit, you'll notice that for navigation, I use `<a></a>
 
 \<a href="/login">|\<a onClick={navigate("/register")}>
 :-------------------------:|:-------------------------:
-![href](./images/href.gif) |![href](./images/onClick.gif)
+![href](./images/href.gif) |![href](./images/onclick.gif)
 
 
 ## Responsive
