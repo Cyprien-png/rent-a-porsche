@@ -1,6 +1,6 @@
 # Document d'installation
 
-Vous pouvez visualiser mon application web depuis le lien suivant : https://elite-motion.internet-box.ch
+Vous pouvez visualiser mon application web depuis le lien suivant : https://188.61.182.237:8888
 
 Sinon, il vous est aussi possible de démarrer un serveur local pour lancer l'application en suivant la marche a suivre suivante.
 
@@ -24,7 +24,7 @@ Si les fonts ne s'affichent pas correctement vous pourrez trouver leurs fichiers
 
 # Installation document
 
-You can view my web application from the following link: https://elite-motion.internet-box.ch
+You can view my web application from the following link: https://188.61.182.237:8888
 
 Alternatively, you can start the application on a local server by following the steps below.
 
