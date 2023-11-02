@@ -11,10 +11,11 @@ const VehiculeForm = ({ vehicule, vehiculeAction, fuelType, fuelTypeAction}) => 
             <Input value={fuelType} action={fuelTypeAction} placeholder="Fuel type" label="Fuel type" />
 
             <div className='flex w-full'>
-                <div className='w-full pr-8'>
+                <div className='w-full'>
                     <Input placeholder="Starting date" label="Pick up date" type="date" />
                 </div>
-                <div className='w-full pl-8'>
+                <div className='min-w-unit-6'></div>
+                <div className='w-full'>
                     <Input placeholder="Ending date" label="Drop off date" type="date" />
                 </div>
             </div>

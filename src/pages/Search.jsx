@@ -72,10 +72,11 @@ const Search = () => {
                     label="Location"
                     options={cities} />
                 <div className='flex w-full'>
-                    <div className='w-full pr-8'>
+                    <div className='w-full'>
                         <Input placeholder="Starting date" label="Pick up date" type="date" />
                     </div>
-                    <div className='w-full pl-8'>
+                    <div className='min-w-unit-6'></div>
+                    <div className='w-full'>
                         <Input placeholder="Ending date" label="Drop off date" type="date" />
                     </div>
                 </div>
@@ -95,9 +96,9 @@ const Search = () => {
         {
             id: "vehicule",
             label: <div>
-            <div onClick={() => resetFilters()} className='absolute rounded-lg w-[4.6rem] h-8 -ml-[11px] -mt-[6px] p-2'></div>
-            <span >Vehicule</span>
-        </div>,
+                <div onClick={() => resetFilters()} className='absolute rounded-lg w-[4.6rem] h-8 -ml-[11px] -mt-[6px] p-2'></div>
+                <span >Vehicule</span>
+            </div>,
             content: <VehiculeForm
                 vehicule={vehicule}
                 vehiculeAction={(e) => {
@@ -140,7 +141,9 @@ const Search = () => {
             </Tabs>
 
             {/* Results */}
-            <div className='border-t-1 border-Porsche-red w-full separator flex-grow overflow-y-auto'>
+            <div className='border-t-1 border-Porsche-red w-full separator flex items-center flex-col flex-grow overflow-y-auto'>
+
+                {filteredCars.length == 0 ? "No vehicule found" : ''}
 
                 {filteredCars.map((car, index) =>
                     <CarCard
